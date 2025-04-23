@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/selecionaPersonagens.unity
     guid: 2f7c04dfa43a6fa45bcf4124bf17bd16
+  - enabled: 1
+    path: Assets/Scenes/jorel/jorel.unity
+    guid: 301bd651658b2bb479cc1f3b954476f9
+  - enabled: 1
+    path: Assets/Scenes/leandro/leandro.unity
+    guid: 5b45c902c8b3dbb4592381b28803427a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
