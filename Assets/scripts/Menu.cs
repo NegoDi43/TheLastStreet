@@ -42,4 +42,8 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("leandro");
     }
+    public void Back()
+    {
+        SceneManager.LoadScene("selecionaPersonagens");
+    }
 }
