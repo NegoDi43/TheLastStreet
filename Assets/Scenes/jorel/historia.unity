@@ -408,8 +408,6 @@ GameObject:
   - component: {fileID: 556495569}
   - component: {fileID: 556495568}
   - component: {fileID: 556495567}
-  - component: {fileID: 556495570}
-  - component: {fileID: 556495571}
   m_Layer: 5
   m_Name: prosseguir
   m_TagString: Untagged
@@ -481,21 +479,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 556495570}
+      - m_Target: {fileID: 2001143511}
         m_TargetAssemblyTypeName: EscrevaTexto, Assembly-CSharp
         m_MethodName: ProximoTexto
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 556495571}
-        m_TargetAssemblyTypeName: DiretorBatalha, Assembly-CSharp
-        m_MethodName: AparecerBotoes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -543,50 +529,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556495565}
   m_CullTransparentMesh: 1
---- !u!114 &556495570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 556495565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88504a73e36255640a8c601289b0c1d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texto: {fileID: 2001143512}
-  mensagem1: " Era uma noite como qualquer outra em *Gallow's End, uma cidadezinha
-    esquecida no mapa, cercada por florestas densas e estradas desertas. Mas ent\xE3o...
-    **algo aconteceu*."
-  mensagem2: "Um estrondo ecoou pelo c\xE9u \u2014 n\xE3o foi uma explos\xE3o, nem
-    um terremoto. Foi como se a realidade tivesse se partido por dentro. As luzes
-    da cidade piscaram e se apagaram de uma vez. Linhas telef\xF4nicas e internet
-    ca\xEDram. Ningu\xE9m conseguia sair da cidade. Ningu\xE9m sabia por qu\xEA."
-  mensagem3: "O caos se instaurou. Pessoas come\xE7aram a desaparecer. Outras enlouqueciam.
-    Algumas... mudavam."
-  mensagem4: "Apenas um bairro permaneceu intacto \u2014 ou quase. *A Rua Finisterra*,
-    a \xFAltima rua da cidade. A \xFAnica ainda \u201Cfuncionando\u201D. Mas ela
-    esconde algo. Algo que nunca deveria ter sido acordado."
-  mensagem5: "jorel se encontra nessa morbida e tenebrosa rua, a noite cai sobre
-    ele em um ceu sujo, ele infelizimente tem duas escolhas a se fazer\n\n  1- invadir
-    uma casa e dormi la   \n  2- Ficar na rua ate a fechada do dia                             "
-  VelocidadeDigitacao: 0.02
-  contador: 0
---- !u!114 &556495571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 556495565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2efe654040a724c85ac3a5ccfa71fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonSumir: {fileID: 556495565}
-  escrevendoText: {fileID: 0}
 --- !u!1 &565106398
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,7 +896,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1122005563
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1002,21 +944,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 2001143512}
-  mensagem1: " Era uma noite como qualquer outra em *Gallow's End, uma cidadezinha
-    esquecida no mapa, cercada por florestas densas e estradas desertas. Mas ent\xE3o...
-    **algo aconteceu*."
-  mensagem2: "Um estrondo ecoou pelo c\xE9u \u2014 n\xE3o foi uma explos\xE3o, nem
-    um terremoto. Foi como se a realidade tivesse se partido por dentro. As luzes
-    da cidade piscaram e se apagaram de uma vez. Linhas telef\xF4nicas e internet
-    ca\xEDram. Ningu\xE9m conseguia sair da cidade. Ningu\xE9m sabia por qu\xEA."
-  mensagem3: "O caos se instaurou. Pessoas come\xE7aram a desaparecer. Outras enlouqueciam.
-    Algumas... mudavam."
-  mensagem4: "Apenas um bairro permaneceu intacto \u2014 ou quase. *A Rua Finisterra*,
-    a \xFAltima rua da cidade. A \xFAnica ainda \u201Cfuncionando\u201D. Mas ela
-    esconde algo. Algo que nunca deveria ter sido acordado."
-  mensagem5: "jorel se encontra nessa morbida e tenebrosa rua, a noite cai sobre
-    ele em um ceu sujo, ele infelizimente tem duas escolhas a se fazer\n\n  1- invadir
-    uma casa e dormi la   \n  2- Ficar na rua ate a fechada do dia                             "
+  mensagem1: 
+  mensagem2: 
+  mensagem3: 
+  mensagem4: 
+  mensagem5: 
   VelocidadeDigitacao: 0.02
   contador: 0
 --- !u!114 &1122005566
@@ -1063,21 +995,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1122005565}
-        m_TargetAssemblyTypeName: EscrevaTexto, Assembly-CSharp
-        m_MethodName: ProximoTexto
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1122005564}
+      - m_Target: {fileID: 1122005562}
         m_TargetAssemblyTypeName: DiretorBatalha, Assembly-CSharp
-        m_MethodName: AparecerBotoes
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2010,11 +1930,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 2001143512}
-  mensagem1: 
-  mensagem2: 
-  mensagem3: 
-  mensagem4: 
-  mensagem5: 
+  mensagem1: "Era uma noite como qualquer outra em *Gallow's End, uma cidadezinha
+    esquecida no mapa, cercada por florestas densas e estradas desertas. Mas ent\xE3o...
+    **algo aconteceu*."
+  mensagem2: "Um estrondo ecoou pelo c\xE9u \u2014 n\xE3o foi uma explos\xE3o, nem
+    um terremoto. Foi como se a realidade tivesse se partido por dentro. As luzes
+    da cidade piscaram e se apagaram de uma vez. Linhas telef\xF4nicas e internet
+    ca\xEDram. Ningu\xE9m conseguia sair da cidade. Ningu\xE9m sabia por qu\xEA."
+  mensagem3: "O caos se instaurou. Pessoas come\xE7aram a desaparecer. Outras enlouqueciam.
+    Algumas... mudavam."
+  mensagem4: "Apenas um bairro permaneceu intacto \u2014 ou quase. *A Rua Finisterra*,
+    a \xFAltima rua da cidade. A \xFAnica ainda \u201Cfuncionando\u201D. Mas ela
+    esconde algo. Algo que nunca deveria ter sido acordado."
+  mensagem5: "jorel se encontra nessa morbida e tenebrosa rua, a noite cai sobre
+    ele em um ceu sujo, ele infelizimente tem duas escolhas a se fazer:\n\n  1- invadir
+    uma casa e dormi la   \n  2- Ficar na rua ate a fechada do dia                             "
   VelocidadeDigitacao: 0.02
   contador: 0
 --- !u!114 &2001143512
@@ -2118,6 +2048,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001143509}
   m_CullTransparentMesh: 1
+--- !u!1 &2023997547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2023997549}
+  - component: {fileID: 2023997548}
+  m_Layer: 0
+  m_Name: Narrador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2023997548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023997547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314f564fd7f1e0d41915d0cf5ad1d0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEscolha: {fileID: 2110528524}
+  buttonSumir: {fileID: 556495565}
+  escrevendoText: {fileID: 2001143509}
+--- !u!4 &2023997549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023997547}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1319.8921, y: 375.22852, z: -7.6507626}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2085801348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2217,15 +2194,14 @@ GameObject:
   - component: {fileID: 2110528530}
   - component: {fileID: 2110528529}
   - component: {fileID: 2110528528}
-  - component: {fileID: 2110528527}
-  - component: {fileID: 2110528526}
+  - component: {fileID: 2110528531}
   m_Layer: 5
   m_Name: invadir a casa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2110528525
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2246,50 +2222,6 @@ RectTransform:
   m_AnchoredPosition: {x: -700, y: 182}
   m_SizeDelta: {x: 301.9148, y: 60.8338}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2110528526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110528524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2efe654040a724c85ac3a5ccfa71fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonSumir: {fileID: 2110528524}
-  escrevendoText: {fileID: 0}
---- !u!114 &2110528527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110528524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88504a73e36255640a8c601289b0c1d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texto: {fileID: 2001143512}
-  mensagem1: " Era uma noite como qualquer outra em *Gallow's End, uma cidadezinha
-    esquecida no mapa, cercada por florestas densas e estradas desertas. Mas ent\xE3o...
-    **algo aconteceu*."
-  mensagem2: "Um estrondo ecoou pelo c\xE9u \u2014 n\xE3o foi uma explos\xE3o, nem
-    um terremoto. Foi como se a realidade tivesse se partido por dentro. As luzes
-    da cidade piscaram e se apagaram de uma vez. Linhas telef\xF4nicas e internet
-    ca\xEDram. Ningu\xE9m conseguia sair da cidade. Ningu\xE9m sabia por qu\xEA."
-  mensagem3: "O caos se instaurou. Pessoas come\xE7aram a desaparecer. Outras enlouqueciam.
-    Algumas... mudavam."
-  mensagem4: "Apenas um bairro permaneceu intacto \u2014 ou quase. *A Rua Finisterra*,
-    a \xFAltima rua da cidade. A \xFAnica ainda \u201Cfuncionando\u201D. Mas ela
-    esconde algo. Algo que nunca deveria ter sido acordado."
-  mensagem5: "jorel se encontra nessa morbida e tenebrosa rua, a noite cai sobre
-    ele em um ceu sujo, ele infelizimente tem duas escolhas a se fazer\n\n  1- invadir
-    uma casa e dormi la   \n  2- Ficar na rua ate a fechada do dia                             "
-  VelocidadeDigitacao: 0.02
-  contador: 0
 --- !u!114 &2110528528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2334,21 +2266,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2110528527}
-        m_TargetAssemblyTypeName: EscrevaTexto, Assembly-CSharp
-        m_MethodName: ProximoTexto
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2110528526}
-        m_TargetAssemblyTypeName: DiretorBatalha, Assembly-CSharp
-        m_MethodName: AparecerBotoes
+      - m_Target: {fileID: 2110528531}
+        m_TargetAssemblyTypeName: invadirCasa, Assembly-CSharp
+        m_MethodName: InvadirMoradia
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2396,6 +2316,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110528524}
   m_CullTransparentMesh: 1
+--- !u!114 &2110528531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110528524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43bf7df2be2073240a72c6152a0c32e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2405,3 +2337,4 @@ SceneRoots:
   - {fileID: 1988387843}
   - {fileID: 287715894}
   - {fileID: 2085801350}
+  - {fileID: 2023997549}

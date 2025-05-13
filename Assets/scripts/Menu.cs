@@ -26,6 +26,10 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Creditos");
     }
+    public void Lutar() 
+    {
+        SceneManager.LoadScene("luta");
+    }
     public void MenuPricipal()
     {
         SceneManager.LoadScene("MenuPrincipal");

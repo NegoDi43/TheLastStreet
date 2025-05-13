@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 379937548}
   - component: {fileID: 379937547}
   - component: {fileID: 379937546}
+  - component: {fileID: 379937549}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -347,7 +348,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 379937547}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 379937549}
+        m_TargetAssemblyTypeName: iniciarHistoria, Assembly-CSharp
+        m_MethodName: comecar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &379937547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,6 +399,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379937544}
   m_CullTransparentMesh: 1
+--- !u!114 &379937549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379937544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd258a24a2689f498a6b5b54f5c2da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &404409211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,7 +1268,7 @@ MonoBehaviour:
   m_text: "Idade: 22 anos\n\nProfiss\xE3o antes do colapso: Estudante de Engenharia\n\nPersonalidade:
     Jovem, destemido e audacioso. Jorel \xE9 o tipo de pessoa que n\xE3o tem medo
     de se jogar em uma situa\xE7\xE3o perigosa para descobrir a verdade, muitas vezes
-    desafiando o perigo e colocando a coragem \xE0 frente do bom senso. Ele \xE9
+    desafiando o perigo e colocando a coragem \xE0 frente do bom senso. ele \xE9
     impulsivo, mas possui uma curiosidade insaci\xE1vel sobre os mist\xE9rios ao
     seu redor."
   m_isRightToLeft: 0

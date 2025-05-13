@@ -2,6 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EscrevaTexto : MonoBehaviour
 {
@@ -81,4 +82,6 @@ public class EscrevaTexto : MonoBehaviour
 
 
     }
+
+    
 }
