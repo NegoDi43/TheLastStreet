@@ -978,13 +978,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 1737781609}
-  mensagemCompleta: "Idade: 22 anos\n\nProfiss\xE3o antes do colapso: Estudante de
-    Engenharia\n\nPersonalidade: Jovem, destemido e audacioso. Jorel \xE9 o tipo
-    de pessoa que n\xE3o tem medo de se jogar em uma situa\xE7\xE3o perigosa para
-    descobrir a verdade, muitas vezes desafiando o perigo e colocando a coragem \xE0
-    frente do bom senso. Ele \xE9 impulsivo, mas possui uma curiosidade insaci\xE1vel
-    sobre os mist\xE9rios ao seu redor."
-  velocidadeDigitacao: 0.05
+  mensagemCompleta: "Idade: 25 anos\n\nProfiss\xE3o antes do colapso: tatuador\n\nPersonalidade:
+    Leandro \xE9 observador, introspectivo e profundamente intuitivo. Ao contr\xE1rio
+    da maioria que reage ao caos com gritos ou correria, ele silencia \u2014 e observa.
+    Ele acredita que tudo tem um padr\xE3o, at\xE9 o colapso.\nN\xE3o \xE9 que ele
+    n\xE3o tenha medo \u2014 ele s\xF3 n\xE3o deixa que o medo decida por ele"
+  velocidadeDigitacao: 0.005
 --- !u!4 &1796363092
 Transform:
   m_ObjectHideFlags: 0

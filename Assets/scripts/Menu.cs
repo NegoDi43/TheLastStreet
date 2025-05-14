@@ -30,6 +30,12 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("luta");
     }
+
+    public void vitoria()
+    {
+        SceneManager.LoadScene("vitoria");
+    }
+
     public void MenuPricipal()
     {
         SceneManager.LoadScene("MenuPrincipal");

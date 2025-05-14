@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/creditos.unity
     guid: b240ca1e240d4394f9338d98e57bb748
   - enabled: 1
+    path: Assets/Scenes/jorel/vitoria.unity
+    guid: 2977638ffaae65d47a6515c4c00cffde
+  - enabled: 1
     path: Assets/Scenes/jorel/luta.unity
     guid: cf1f5f59f7a50d9428cf60325ce63a44
   - enabled: 1

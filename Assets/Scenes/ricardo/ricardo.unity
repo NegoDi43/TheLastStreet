@@ -832,12 +832,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 1737781609}
-  mensagemCompleta: "Idade: 22 anos\n\nProfiss\xE3o antes do colapso: Estudante de
-    Engenharia\n\nPersonalidade: Jovem, destemido e audacioso. Jorel \xE9 o tipo
-    de pessoa que n\xE3o tem medo de se jogar em uma situa\xE7\xE3o perigosa para
-    descobrir a verdade, muitas vezes desafiando o perigo e colocando a coragem \xE0
-    frente do bom senso. Ele \xE9 impulsivo, mas possui uma curiosidade insaci\xE1vel
-    sobre os mist\xE9rios ao seu redor."
+  mensagemCompleta: "Idade: 30 anos\n\nProfiss\xE3o antes do colapso: Delegado de
+    policia\n\nPersonalidade: Ricardo, aos 30, \xE9 um homem maduro, focado e profundamente
+    desconfiado. J\xE1 viu de tudo na pol\xEDcia: corrup\xE7\xE3o, trai\xE7\xF5es,
+    gente inocente sendo sacrificada por \u201Co bem maior\u201D. Ele carrega o peso
+    das decis\xF5es dif\xEDceis, e isso moldou sua forma de ver o mundo."
   velocidadeDigitacao: 0.005
 --- !u!4 &1796363092
 Transform:
