@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     {
         if (especial >= 3)
         {
-            dB.RecebeTexto($"{nomePersonagem} especial pronto!");
+            dB.RecebeTexto($"{nomePersonagem} esta pronto para dar a facada!");
             audioSource.PlayOneShot(somEspecialPronto);
             return true;
         }
@@ -84,13 +84,13 @@ public class Player : MonoBehaviour
         if (valorAtaque > 0)
         {
 
-            dB.RecebeTexto("ARgh! Sinta Minha Furia!");
+            dB.RecebeTexto("agora voce ira tomar um socao");
             dB.RecebeTexto($"{nomePersonagem} ataca com {valorAtaque}");
             PlaySomAtaque();
         }
         else
         {
-            dB.RecebeTexto($"{nomePersonagem} erra o ataque.");
+            dB.RecebeTexto($"{nomePersonagem} erra o soco.");
             PlaySomErroAtaque();
         }
 
@@ -126,7 +126,7 @@ public class Player : MonoBehaviour
         if (chanceDeDobrar >= 90 && especial >= 3)
         {
             int valorEspecialDobrado = (valorEspecial * 2) + fatorMultiplicador;
-            dB.RecebeTexto("ARgh! Sede de Vinguança!");
+            dB.RecebeTexto("facada critica no inimigo");
             dB.RecebeTexto($"{nomePersonagem} ataca com {valorEspecialDobrado}");
             PlaySomEspecial();
             especial = 0;
@@ -134,7 +134,7 @@ public class Player : MonoBehaviour
         }
         else if (chanceDeDobrar < 90 && especial >= 3)
         {
-            dB.RecebeTexto("ARgh! Vou te esmagar!");
+            dB.RecebeTexto("voce aplicou a facada");
             dB.RecebeTexto($"{nomePersonagem} ataca com {valorEspecial}");
             PlaySomAtaque();
             especial = 0;
@@ -142,7 +142,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            dB.RecebeTexto("Seu especial nao esta carregado!");
+            dB.RecebeTexto("sua faca nao esta amolada!");
             return 0;
         }
     }
